@@ -1,9 +1,18 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int number;
-    cout << "Enter number :";
-    cin >> number;
-    cout << "Number is : "<<number;
+    #ifndef ONLINE_JUDGE
+        freopen("../input.txt", "r", stdin);
+        freopen("../output.txt", "w", stdout);
+    #endif
 
+        int savings;
+        cin>>savings;
+        if(savings>5000){
+            cout << "Neha"<<endl;
+        }else{
+            cout<<"Rashmi"<<endl;
+        }
+
+        return 0;
 }
