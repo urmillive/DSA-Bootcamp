@@ -1,5 +1,3 @@
-package basics;
-
 public class Shadowing {
     static int x = 90;
 

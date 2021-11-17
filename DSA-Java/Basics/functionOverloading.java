@@ -1,5 +1,3 @@
-package basics;
-
 public class functionOverloading {
     public static void main(String[] args) {
         fun(44);

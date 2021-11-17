@@ -1,5 +1,3 @@
-package basics;
-
 import java.util.Scanner;
 
 public class caseCheck {
@@ -7,14 +5,14 @@ public class caseCheck {
         Scanner in = new Scanner(System.in);
         char ch = in.next().trim().charAt(0);
 
-        if(ch >= 'a' && ch <='z'){
+        if (ch >= 'a' && ch <= 'z') {
             System.out.println("LowerCase");
-        }else{
+        } else {
             System.out.println("UpperCase");
         }
 
-//        String world = "Hello";
-//        System.out.println(world);
-//        System.out.println(world.charAt(3));
+        // String world = "Hello";
+        // System.out.println(world);
+        // System.out.println(world.charAt(3));
     }
 }

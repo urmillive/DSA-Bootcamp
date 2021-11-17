@@ -1,5 +1,3 @@
-package basics;
-
 import java.util.Scanner;
 
 public class find_give_no {

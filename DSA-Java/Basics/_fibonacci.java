@@ -1,8 +1,6 @@
-package basics;
-
 import java.util.Scanner;
 
-public class fibonacci {
+public class _fibonacci {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
@@ -14,6 +12,5 @@ public class fibonacci {
             a = temp;
             System.out.println(b);
         }
-
     }
 }
