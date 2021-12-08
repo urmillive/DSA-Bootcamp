@@ -4,14 +4,14 @@ import java.util.Scanner;
 public class calculator {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        //take input from user till user does not press X or x
+        // take input from user till user does not press X or x
         int answer = 0;
         while (true) {
-            //take the operator as input
+            // take the operator as input
             System.out.print("Enter operator: ");
             char op = in.next().trim().charAt(0);
             if (op == '+' || op == '-' || op == '*' || op == '/' || op == '%') {
-                //input two numbers
+                // input two numbers
                 System.out.print("Enter two Numbers: ");
                 int num1 = in.nextInt();
                 int num2 = in.nextInt();
