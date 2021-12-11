@@ -1,11 +1,11 @@
-import os
-from datetime import datetime
-import time
-import glob
+from os import remove
+from os.path import getctime
+from time import sleep, time
+from glob import glob
 
 while True:
-    for i in glob.glob("*.exe"):
-        if os.path.getctime(i) <= datetime.now().timestamp()-1:
-            os.remove(i)
+    for i in glob("*.exe"):
+        if getctime(i) <= time()-1:
+            remove(i)
             print("Deleted ", i)
-    time.sleep(1)
+    sleep(1)
