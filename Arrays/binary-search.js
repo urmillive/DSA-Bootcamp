@@ -1,9 +1,8 @@
 function search(arr,key){
     let start=0;
     let end = arr.length-1;
-    let mid = Math.floor(start + (end-start)/2)
-
     while(start<=end){
+        let mid = Math.floor(start + (end-start)/2)
         if(arr[mid]==key){
             return mid;
         }
@@ -13,7 +12,7 @@ function search(arr,key){
         else{
             end = mid-1;
         }
-        mid = Math.floor(start + (end-start)/2)
+       
     }
     return 0;
 }
